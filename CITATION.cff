@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this code or notebook in your work, please cite it as below."
+type: software
+title: "MIN-K% Prob: Detecting Pretraining Data from LLMs — Reproduction & Analysis"
+abstract: >
+  A reproduction and analysis of the MIN-K% Prob membership inference method
+  from the ICLR 2024 paper "Detecting Pretraining Data from Large Language Models"
+  by Shi et al. Includes a toy memorisation experiment, head-to-head MIA comparison,
+  WikiMIA benchmark evaluation, hyperparameter sweep, and multi-model scaling study.
+authors:
+  - family-names: Hassan
+    given-names: Messum
+    affiliation: "NED University of Engineering and Technology"
+  - family-names: Ahmed
+    given-names: Uzair
+    affiliation: "NED University of Engineering and Technology"
+version: "1.0.0"
+date-released: "2026-04-22"
+license: MIT
+repository-code: "https://github.com/<your-username>/ResearchAI"
+keywords:
+  - membership-inference-attack
+  - large-language-models
+  - pretraining-data-detection
+  - min-k-prob
+  - WikiMIA
+  - pythia
+  - NLP
+  - machine-learning
+
+references:
+  - type: article
+    title: "Detecting Pretraining Data from Large Language Models"
+    authors:
+      - family-names: Shi
+        given-names: Weijia
+      - family-names: Ajith
+        given-names: Anirudh
+      - family-names: Xia
+        given-names: Mengzhou
+      - family-names: Huang
+        given-names: Yangsibo
+      - family-names: Liu
+        given-names: Daogao
+      - family-names: Blevins
+        given-names: Terra
+      - family-names: Chen
+        given-names: Danqi
+      - family-names: Zettlemoyer
+        given-names: Luke
+    year: 2024
+    journal: "International Conference on Learning Representations (ICLR)"
+    url: "https://arxiv.org/abs/2310.16789"
