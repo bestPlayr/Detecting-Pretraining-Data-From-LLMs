@@ -57,7 +57,7 @@ The notebook is fully self-contained and structured into five progressive experi
 |---|---------|-------------|------------|
 | 1 | **Toy Memorisation Experiment** | `pythia-70m` | MIN-K% successfully detects a fine-tuned essay vs. unseen control text |
 | 2 | **MIA Method Comparison** | `pythia-70m` | MIN-K% outperforms PPL and Zlib baselines on hand-crafted dataset |
-| 3 | **WikiMIA Benchmark Evaluation** | `pythia-2.8b` | AUC = 0.5956 vs. paper's 0.67 (gap explained by model/compute constraints) |
+| 3 | **WikiMIA Benchmark Evaluation** | `pythia-2.8b` | AUC = 0.66 vs. paper's 0.67 (gap explained by model/compute constraints) |
 | 4 | **Hyperparameter Sweep (k%)** | `pythia-2.8b` | Optimal k = 10 for our setup (paper reports k = 20 for larger models) |
 | 5 | **Multi-Model Scaling Study** | `pythia-70m`, `160m`, `410m` | AUC and detection quality improve with model size and text length |
 
@@ -71,7 +71,7 @@ The notebook is fully self-contained and structured into five progressive experi
 |--------|:-------:|:-----------------------:|
 | Perplexity (PPL) | — | 0.61 |
 | Zlib Entropy | — | 0.65 |
-| **MIN-K% Prob** | **0.5956** | **0.67** |
+| **MIN-K% Prob** | **0.66** | **0.67** |
 
 > Our gap from the paper's result is expected — we ran on free-tier Google Colab (T4 GPU) with 100 samples. The paper used full WikiMIA with larger infrastructure.
 
